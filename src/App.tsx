@@ -356,8 +356,7 @@ class TeamCard extends React.Component {
                 <Card.Subtitle className="mb-2 text-muted">Mascot: {oneTeam.name}</Card.Subtitle>
                 <Card.Subtitle>{oneTeam.city}, {oneTeam.state}</Card.Subtitle>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  I am a team in the NCAA tournament
                 </Card.Text>
               </Card.Body>
             </Card>
