@@ -352,8 +352,8 @@ class TeamCard extends React.Component {
           <Col xs={12} md={8}>
             <Card style={{ width: '18rem' }}>
               <Card.Body>
-                <Card.Title>School: {oneTeam.school}</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Mascot: {oneTeam.name}</Card.Subtitle>
+                <Card.Title><h2>{oneTeam.school}</h2></Card.Title>
+                <Card.Subtitle className="mb-2 text-muted"><h4>Mascot: {oneTeam.name}</h4></Card.Subtitle>
                 <Card.Subtitle>{oneTeam.city}, {oneTeam.state}</Card.Subtitle>
                 <Card.Text>
                   I am a team in the NCAA tournament
@@ -395,6 +395,7 @@ class Body extends React.Component {
     )
   }
 }
+
 function App() {
   return (
     <div className="App">
