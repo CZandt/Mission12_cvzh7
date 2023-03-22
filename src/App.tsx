@@ -348,9 +348,9 @@ class TeamCard extends React.Component {
     return (
       <div>
         <Row>
-          <Col xs={6} md={4}></Col>
-          <Col xs={12} md={8}>
-            <Card style={{ width: '18rem' }}>
+          <Col></Col>
+          <Col xs={6}>
+            <Card>
               <Card.Body>
                 <Card.Title><h2>{oneTeam.school}</h2></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"><h4>Mascot: {oneTeam.name}</h4></Card.Subtitle>
@@ -361,6 +361,7 @@ class TeamCard extends React.Component {
               </Card.Body>
             </Card>
           </Col>
+          <Col></Col>
         </Row>
         <br />
       </div>
@@ -399,7 +400,9 @@ class Body extends React.Component {
 function App() {
   return (
     <div className="App">
+      <br />
       <Header />
+      <br />
       <Body />
     </div>
   );
