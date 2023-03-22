@@ -341,7 +341,7 @@ function TeamList() {
   )
 }
 
-class TeamCard extends React.Component {
+class TeamCard extends React.Component<{school : string, name: string, city : string, state: string}> {
   render() {
     const oneTeam = this.props;
 
