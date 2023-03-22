@@ -373,7 +373,11 @@ class Header extends React.Component {
   render () {
     return (
       <div>
-        <h1>NCAA March Madness Team Info</h1>
+        <Card>
+          <Card.Body>
+            <h1>NCAA March Madness Team Info</h1>
+          </Card.Body>
+        </Card>
       </div>
     )
   }
@@ -400,7 +404,6 @@ class Body extends React.Component {
 function App() {
   return (
     <div className="App">
-      <br />
       <Header />
       <br />
       <Body />
